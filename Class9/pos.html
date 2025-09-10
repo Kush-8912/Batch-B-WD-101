@@ -1,32 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    .parent{
+    .parent {
       border: 3px solid orange;
       height: 600px;
       width: 500px;
       margin: auto;
     }
-    .child{
+
+    .child {
       height: 100px;
       width: 100px;
       border-radius: 10%;
-      margin: 20px;
+      /* margin: 20px; */
     }
-    .one{ background-color: yellow;}
-    .two{ background-color: red;
-    position: relative;
-  top: 20px;
-  left: 200px;
-}
-    .three{ background-color: blue;}
-    .four{ background-color: violet;}
+
+    .one {
+      background-color: yellow;
+    }
+
+    .two {
+      background-color: red;
+      /* position: relative; */
+      /* top: 20px; */
+      /* left: 200px; */
+      /* bottom: 120px; */
+      position: absolute;
+      top: 0px;
+      right: 0px;
+    }
+
+    .three {
+      background-color: blue;
+      /* position: absolute; */
+    }
+
+    .four {
+      background-color: violet;
+    }
   </style>
 </head>
+
 <body>
   <div class="parent">
     <div class="child one"></div>
@@ -34,6 +53,7 @@
     <div class="child three"></div>
     <div class="child four"></div>
   </div>
-  
+
 </body>
+
 </html>
