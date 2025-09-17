@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* make the box a square and  
+    get the text to center*/
+    .box{
+      height: 200px;
+      width: 200px;
+      padding: 20px;
+      margin: auto;
+      background-color: green;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      animation-name: box-animation;
+      animation-duration: 5s;
+      animation-iteration-count: infinte;
+      /* animation-fill-mode: forwards; */
+    } 
+    
+    @keyframes box-animation {
+      0%{
+        background-color: green;
+      }
+      50%{
+        background-color: red;
+        border-radius: 50%;
+      }
+      100%{
+        background-color: yellow;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box">Animate Me!!!</div>
+  </div>
+</body>
+</html>
