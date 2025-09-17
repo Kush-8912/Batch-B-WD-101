@@ -33,3 +33,25 @@
 3. Choose **Branch: main** and **/ (root)** folder.
 4. Click **Save**.
 5. Wait a few minutes, then your site will be live at:  
+
+> `https://<your-username>.github.io<repository-name>/`
+
+
+---
+
+### Step 4: Access Your Website
+- Open the URL in your browser.
+- 🎉 Your website is live!
+
+---
+
+## 3️⃣ Things to Take Care Of (First-Timers)
+- Your **main file must be `index.html`**, otherwise GitHub Pages won’t load it.
+-  Keep file names lowercase & without spaces (e.g., `style.css`, not `Style Sheet.CSS`).
+-  Check **relative paths** in HTML (`./style.css`, `./images/pic.png`).
+-  For updates:
+- Upload again OR use Git from VS Code (`git add . → git commit → git push`).
+- ⚠️ GitHub Pages takes a minute or two to update after each commit.
+- ⚠️ Large files (videos > 100MB) are not supported. Use external hosting (e.g., YouTube, Google Drive) if needed.
+
+
