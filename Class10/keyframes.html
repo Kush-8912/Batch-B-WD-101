@@ -18,21 +18,36 @@
       align-items: center;
       justify-content: center;
       animation-name: box-animation;
-      animation-duration: 5s;
-      animation-iteration-count: infinte;
+      animation-duration: 10s;
+      animation-timing-function: cubic-bezier(0,0,0);
+
+      /* animation-iteration-count: infinte; */
       /* animation-fill-mode: forwards; */
     } 
-    
+    /* 0%, 25%, 50%, 75%, 100% */
     @keyframes box-animation {
       0%{
         background-color: green;
+        transform: translate(0px, 0px);
+      }
+      25%{
+        background-color: red;
+        /* transform: translate(100px,0px); */
+        /* border-radius: 50%; */
       }
       50%{
-        background-color: red;
-        border-radius: 50%;
+        background-color: blue;
+        /* transform: translate(100px,100px); */
+        
+      }
+      75%{
+        background-color: pink;
+        /* transform: translate(-100px,100px); */
       }
       100%{
-        background-color: yellow;
+        background-color: green;
+        transform: translate(200px,0px);
+
       }
     }
   </style>
