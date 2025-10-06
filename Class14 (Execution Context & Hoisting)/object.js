@@ -8,4 +8,16 @@ let employee = {
 
 console.log(employee)
 console.log(employee.gender) // Dot Notation
-console.log(employee["email"]) // Bracket Notation
+console.log(employee["email"]) // Bracket Notation''
+
+// Update properties
+employee.age = 20 
+employee['isPresent'] = false 
+
+// Add new property
+employee.id = 3187 
+console.log(employee)
+
+// Delete property 
+delete employee.gender
+console.log(employee)
