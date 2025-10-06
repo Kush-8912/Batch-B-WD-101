@@ -21,3 +21,11 @@ console.log(employee)
 // Delete property 
 delete employee.gender
 console.log(employee)
+
+employee.hobbies = ['reading', 'table tennis']
+console.log(employee)
+
+// variable storing keyName 
+let keyName = 'hobbies'
+// Dot notation will not work
+console.log(keyName + " :  " + employee[keyName])
