@@ -34,3 +34,11 @@ let newArr2 = arr.map(function(ele){
   }
 })
 console.log(newArr2)
+
+
+let myArr = [1, 2, 5, 7, 8, 2, 6, 9, 13, 17]
+// output => [13, 17]
+let ans2 = myArr.filter(function(ele){
+  return (ele > 10)
+})
+console.log(ans2)
