@@ -29,6 +29,16 @@ let ans =  arr.reduce(function(res, curr){
   res += curr
   return res 
 }, 0)
+
+// defualt initial value => first elemnet of array
+
 console.log(ans)
 
 // use Reduce() to find product of all elements 
+
+let ans2 =  arr.reduce(function(res, curr){
+  res *= curr
+  return res 
+}, 1)
+
+console.log(ans2) // 120
